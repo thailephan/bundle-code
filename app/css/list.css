@@ -1,0 +1,18 @@
+ul {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+    box-sizing: content-box;
+}
+
+::placeholder {
+  color: gray;
+}
+
+@media (min-resolution: 2dppx) {
+  .image {
+    background-image: url("");
+  }
+}

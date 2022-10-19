@@ -1,0 +1,43 @@
+* {
+    --abc: #098900;
+}
+
+div {    
+    display: block; 
+   	&.content {       
+        position: relative;    
+    } 
+} 
+
+.red { 
+    color: red; 
+}
+
+.lamda {
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0 0 #000;
+}
+
+.basic {
+    background-color: var(--abc);
+}
+
+ul {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+    box-sizing: content-box;
+}
+
+::placeholder {
+  color: gray;
+}
+
+@media (min-resolution: 2dppx) {
+  .image {
+    background-image: url("");
+  }
+}
